@@ -44,25 +44,9 @@ client.on("message", message => {
 if (message.content === prefix +"help") {
 const embed = new Discord.MessageEmbed()
 .setColor("BLACK")
-.setThumbnail("https://media.tenor.com/images/85500641e177bccfc805cac8a2805e3f/tenor.gif")
-.setAuthor("Prefix [ j! ]","https://i.imgur.com/Y9N3OCy.gif?noredirect")
 .setDescription(` 
  **
- Admin
-
-j!server| j!user | j!say | j!U | j!avatar | j!ping | j!support | j!invite | j!bot |
-
-Moderation
-
-j!clear | j!ban | j!kick | j!lock | j!unlock | j!mute | j!unmute | j!slowmode |
-
-gif
-
-j!love | j!kiss | j!slap | j!happy | j!sad |
-
-use onle owner ship or administrator or MENTION_EVERYONE send [@everyone]
-
-anti link use onle owner ship ord administrator or manage emoji send [anti partner] 
+ hi
 **
 **[ invite ]**
 **[ click here ](https://discord.com/api/oauth2/authorize?client_id=799228179784794183&permissions=8&scope=bot)** 
