@@ -26,7 +26,7 @@ const client = new Discord.Client();
 const prefix = "j!";
 
 
-client.login("ODA4NTUxMjE1ODU2MjIyMjA5.YCIMAA.F-zPxjjtjkSrfwa0bqG9oC31CHw");
+client.login("ODIxMTgzMDM1Nzk4MDYxMDY2.YFAATA.PwvZxJx99gAvCsn-RsQh2eay9qI");
 client.on("ready", async () => {
   console.log(`Logged in as ${client.user.username}!`);
   client.user.setStatus("ONLINE");
